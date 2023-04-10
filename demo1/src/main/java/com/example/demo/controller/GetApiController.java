@@ -59,7 +59,7 @@ public class GetApiController {
 		
 		System.out.println("data : " + data.toString());
 		
-		return "파싱 map 방식에 이해" + sb.toString();
+		return "파싱 map 방식의 이해" + sb.toString();
 	}
 	
 	// Map 활용 (직접 만들어보기) 
