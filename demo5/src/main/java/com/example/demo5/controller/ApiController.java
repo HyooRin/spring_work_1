@@ -40,7 +40,7 @@ public class ApiController {
 	@PostMapping("/user2")
 	public ResponseEntity<User> user2(@Valid @RequestBody User user){
 		// 관점지향 패러다임 추가 		
-		// AOP 기반에 valid 라이브러리를 활용하면 공통적으로 들어가야 하는 부분에 코드르 분리시킬 수 있다
+		// AOP 기반에 valid 라이브러리를 활용하면 공통적으로 들어가야 하는 부분에 코드를 분리시킬 수 있다
 		return ResponseEntity.ok(user);
 		
 	}
