@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 @org.springframework.stereotype.Controller
 public class Controller {
 	
-	// http://localhost:8080/
+	// http://localhost:8080/blog
 	@GetMapping({"blog"})
 	public String userPage() {		
 		
